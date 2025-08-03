@@ -1,0 +1,119 @@
+body{
+    background-color: #EBDFD8
+} 
+.header{
+    font-family: Trocchi, serif;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 100px;
+    align-items: center; /* Alinha verticalmente */
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.menu span:hover{
+    transform: scale(1.3);
+    text-decoration: underline;
+    text-decoration-color: #a89c94;
+}
+.menu span {
+    font-size: 1.2em;
+    font-weight: semi-bold;
+    cursor: pointer;
+    color: #213256;
+    transition: transform 0.3s ease, text-decoration-color 0.3s ease;
+}
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px;
+    margin-top: 10px; /* Menos espaço acima */
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 40px;
+}
+.nome{
+    justify-content: end;
+    font-family: 'Ultra', serif;
+    font-size: 70px;
+    color: #213256;
+    font-weight: semi-bold;
+    margin-bottom: 0;
+    letter-spacing: 15px;
+    /* Remova o border-bottom */
+}
+
+.work{
+    
+    color: #F46565;
+    font-size: xx-small;
+    font-weight: lighter;
+    font-size: 15px;
+    margin-top: 30px;
+    font-family: 'Ultra', serif;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    margin-top: 40px;
+    
+}
+.sobrenome{
+    font-family: 'Trocchi', serif;
+    font-weight: lighter;
+    font-size: 7em;
+    color: #a89c94;
+    font-weight: lighter;
+    border-bottom: 3px solid #F46565;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+
+.descricao {
+    margin: 20px 0 0 0;
+    color: #213256;
+    font-size: 1.2em;
+    font-family: 'Georgia', serif;
+}
+
+.contato {
+  align-self: center;
+  background: #F46565;
+  color: #EBDFD8;
+  font-family: 'Ultra', serif;
+  letter-spacing: 5px;
+  font-size: 2em;
+  font-weight: lighter;
+  border: none;
+  border-radius: 30px;
+  padding: 10px 30px;
+  margin-top: 20px;
+  cursor: pointer;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+}
+
+.div-Servicos {
+    background: #213256;
+    color: #EBDFD8;
+    height: 600px; /* ajuste conforme necessário */
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    margin-top: 120px; /* Aumente para forçar o scroll */
+    padding: 40px;
+}
+
+.onda {
+    display: block;
+    margin-bottom: -5px;
+}
