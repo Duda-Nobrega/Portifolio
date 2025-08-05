@@ -45,7 +45,7 @@ body{
     font-family: 'Ultra', serif;
     font-size: 70px;
     color: #213256;
-    font-weight: semi-bold;
+    font-weight:lighter;
     margin-bottom: 0;
     letter-spacing: 15px;
     /* Remova o border-bottom */
@@ -89,18 +89,25 @@ body{
 
 .contato {
   align-self: center;
-  background: #F46565;
-  color: #EBDFD8;
+  color: #F46565;
+  background-color: #EBDFD8;
   font-family: 'Ultra', serif;
   letter-spacing: 5px;
   font-size: 2em;
   font-weight: lighter;
-  border: none;
+  border: 3px solid #F46565;
   border-radius: 30px;
   padding: 10px 30px;
   margin-top: 20px;
   cursor: pointer;
   box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  
+}
+
+.contato:hover {
+    background: #F46565;
+    color: #EBDFD8;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .div-Servicos {
@@ -116,4 +123,78 @@ body{
 .onda {
     display: block;
     margin-bottom: -5px;
+}
+.servicos-titulo {
+  font-family: 'Trocchi', serif;
+  font-size: 5em;
+  margin-bottom: 0.2em;
+  color: #EBDFD8;
+  border-bottom: 2px solid #EBDFD8;
+  padding-bottom: 10px;
+}
+
+.servicos-sub {
+  display: flex;
+  align-items: flex-start;
+  gap: 40px;
+  margin: 30px 0 40px 0;
+}
+
+.servicos-sub-titulo {
+  font-family: 'Ultra', serif;
+  font-size: 2em;
+  color: #EBDFD8;
+  font-weight: semi-bold;
+  position: relative;
+}
+
+.sub-underline {
+  color: #F46565;
+  font-size: 1.2em;
+  font-family: 'Ultra', serif;
+  margin-left: 5px;
+}
+
+.servicos-descricao {
+  color: #EBDFD8;
+  font-size: 1.1em;
+  max-width: 400px;
+}
+
+.servicos-lista {
+  margin-top: 40px;
+}
+
+.servico-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.servico-numero {
+  font-family: 'Ultra', serif;
+  font-size: 1.5em;
+  color: #EBDFD8;
+  margin-top: 10px;
+}
+
+.servico-conteudo h2 {
+  font-family: 'Ultra', serif;
+  font-size: 2em;
+  color: #EBDFD8;
+  margin-bottom: 10px;
+}
+
+.servico-conteudo p {
+  font-family: 'Trocchi', serif;
+  color: #EBDFD8;
+  font-size: 1em;
+  margin-bottom: 5px;
+}
+
+hr {
+  border: none;
+  border-top: 2px solid #EBDFD8;
+  margin: 0 0 40px 0;
 }
