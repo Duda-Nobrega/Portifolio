@@ -113,9 +113,11 @@ body{
 .div-Servicos {
     background: #213256;
     color: #EBDFD8;
-    height: 600px; /* ajuste conforme necessário */
+    /* ajuste conforme necessário */
     border-top-left-radius: 30px;
     border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px ;
     margin-top: 120px; /* Aumente para forçar o scroll */
     padding: 40px;
 }
@@ -126,23 +128,26 @@ body{
 }
 .servicos-titulo {
   font-family: 'Trocchi', serif;
-  font-size: 5em;
+  font-size: 6em;
   margin-bottom: 0.2em;
   color: #EBDFD8;
-  border-bottom: 2px solid #EBDFD8;
   padding-bottom: 10px;
+  margin-top:2px;
+  letter-spacing: 15px;
+  padding-left: 50px;
 }
 
 .servicos-sub {
   display: flex;
   align-items: flex-start;
-  gap: 40px;
-  margin: 30px 0 40px 0;
+  gap: 20%;
+  margin: 30px 0 40px 60px;
+  
 }
 
 .servicos-sub-titulo {
   font-family: 'Ultra', serif;
-  font-size: 2em;
+  font-size: 2.2em;
   color: #EBDFD8;
   font-weight: semi-bold;
   position: relative;
@@ -168,12 +173,13 @@ body{
 .servico-item {
   display: flex;
   align-items: flex-start;
-  gap: 30px;
+  gap: 40%;
   margin-bottom: 40px;
+  margin-left: 60px;
 }
 
 .servico-numero {
-  font-family: 'Ultra', serif;
+  font-family: 'trocchi', serif;
   font-size: 1.5em;
   color: #EBDFD8;
   margin-top: 10px;
@@ -184,17 +190,33 @@ body{
   font-size: 2em;
   color: #EBDFD8;
   margin-bottom: 10px;
+  font-weight: lighter;
 }
 
 .servico-conteudo p {
   font-family: 'Trocchi', serif;
   color: #EBDFD8;
   font-size: 1em;
-  margin-bottom: 5px;
+  margin-bottom: 16px;
+  margin-left: 10px;
 }
 
 hr {
   border: none;
   border-top: 2px solid #EBDFD8;
   margin: 0 0 40px 0;
+  width: 60%;     
+  margin-left: auto;
+  margin-right: auto;
+}
+.div-projetos {
+    color: #213256;
+    background: #EBDFD8;
+    /* ajuste conforme necessário */
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px ;
+    margin-top: 120px; /* Aumente para forçar o scroll */
+    padding: 40px;
 }
